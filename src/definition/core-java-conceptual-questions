@@ -2,34 +2,73 @@ Please answer the below core-java Questions:
 
 What is programing language?
 A.
-
-
-
+it is a set of rules for instructing a computer tp perform specific tasks. such as java python c++..
 
 What jdk contains or composed of and define each components?
 A.
-
-
+The Runtime Interpreter: The Java runtime interpreter (java) is a stand-alone version of the Java interpreter built into the HotJava browser. The runtime interpreter provides the support to run Java executable programs in compiled, bytecode format.
+The Compiler: The Java compiler (javac) is used to compile Java source code files into executable Java bytecode classes. In Java, source code files have the extension .java.
+The Applet Viewer:The applet viewer is a tool that serves as a minimal test bed for final release Java applets. You can use the applet viewer to test your programs instead of having to wait for HotJava to support the final release of Java.
+The Debugger
+The Class File Disassembler
+The Header and Stub File Generator
+The Documentation Generator
+Applet Demos
+API Source Code
 
 
 
 What is IDE?
 A.
-
-
+Integrated Development Environment
 
 What are the IDEs available in the market to support java?
 A.
-
+NetBeans
+Eclipse
+IntelliJ IDEA
+Android Studio
+BlueJ
+jEdit
+jGRASP
 
 
 Explain the entire java life cycle.
+A.
+SOURCE COD: Programmers write software programs using a programming language The programming language provides a series of instructions they can use to create the program they want. All the instructions a programmer uses to build the program are known as source code.
+compiler is a special program that processes statements written in a particular programming language (source code) and turns them into machine language or "code" that a computer's processor uses.
+Bytecdes: or machine codes the result of compiling or after source codes compiled it gives bytecodes (in the form of a .class file) that are ready to be executed by JVM.
+JVM (Java Virtual Machine) Most systems use a single text segment, but actually use up to three data segments, depending on the storage class of the data being stored there. The four segments can be described as follows:
+	• The code segment, also known as text segment contains the machine instructions of the program. The code can be thought of like the text of a novel
+	• The data segment contains the static data of the program, the variables that exist throughout program execution. 
+	• The stack segment: simple data structure with a LIFO (last-in first-out) access policy.
+	• The heap segment is a pool of memory used for dynamically allocated memory, such as with malloc() in C or new in C++ and Java.
+
+
+
+
 what is class?
+A.
+
+
 What is object?
+A.
+
+
 What is the entry point of an application?
+A.
+
+
 Why main is static?
+A.
+
 Which class is the superclass of all classes?
+A.
+
+
 What is difference between path and classpath variables?
+A.
+
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
