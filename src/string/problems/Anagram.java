@@ -33,7 +33,7 @@ public class Anagram {
 
     public static void main(String[] args) {
 
-        String s = "Debit card", t = "Bad credit";
+        String s = "School master", t = "The classroom";
         System.out.println(isAnagram(s, t) ? "The two strings are anagram." : "The two strings are not anagram.");
 
 

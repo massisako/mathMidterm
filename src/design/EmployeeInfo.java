@@ -29,16 +29,8 @@ public class  EmployeeInfo implements Employee {
 	double employeeBestPerformance = 0.10;
 	double employeeAveragetPerformance = 0.08;
 	int EmployeeSalary;
-
-
-	String employeeName;
-	String assignDepartment;
-
-
-	String managerName;
-
-	int yearsWorked;
-	int performance;
+	static int performance;
+	static int salary = 10000;
 
 
 
