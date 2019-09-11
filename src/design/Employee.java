@@ -19,8 +19,11 @@ public interface Employee {
 	
 	//calculate employee salary
 	public int calculateSalary();
-	
+
 	//employee benefit
 	public void benefitLayout();
+
+
+
 
 }

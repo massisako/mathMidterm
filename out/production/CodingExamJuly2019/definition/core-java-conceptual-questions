@@ -2,59 +2,227 @@ Please answer the below core-java Questions:
 
 What is programing language?
 A.
-
-
-
+it is a set of rules for instructing a computer tp perform specific tasks. such as java python c++..
 
 What jdk contains or composed of and define each components?
 A.
-
-
+_The Runtime Interpreter: The Java runtime interpreter (java) is a stand-alone version of the Java interpreter built into the HotJava browser.
+  The runtime interpreter provides the support to run Java executable programs in compiled, bytecode format.
+_The Compiler: The Java compiler (javac) is used to compile Java source code files into executable Java bytecode classes.
+  In Java, source code files have the extension .java.
+_The Applet Viewer:The applet viewer is a tool that serves as a minimal test bed for final release Java applets.
+  You can use the applet viewer to test your programs instead of having to wait for HotJava to support the final release of Java.
+_The Debugger
+_The Class File Disassembler
+_The Header and Stub File Generator
+_The Documentation Generator
+_Applet Demos
+_API Source Code
 
 
 
 What is IDE?
 A.
-
-
+Integrated Development Environment
 
 What are the IDEs available in the market to support java?
 A.
-
+NetBeans
+Eclipse
+IntelliJ IDEA
+Android Studio
+BlueJ
+jEdit
+jGRASP
 
 
 Explain the entire java life cycle.
+A.
+_SOURCE COD: Programmers write software programs using a programming language The programming language provides a series of instructions
+ they can use to create the program they want. All the instructions a programmer uses to build the program are known as source code.
+_compiler: is a special program that processes statements written in a particular programming language (source code) and turns them into
+  machine language or "code" that a computer's processor uses.
+_Bytecdes: or machine codes the result of compiling or after source codes compiled it gives bytecodes (in the form of a .class file) that
+  are ready to be executed by JVM.
+_JVM (Java Virtual Machine) Most systems use a single text segment, but actually use up to three data segments, depending on the storage
+  class of the data being stored there. The four segments can be described as follows:
+	• The code segment, also known as text segment contains the machine instructions of the program. The code can be thought of like the
+	  text of a novel
+	• The data segment contains the static data of the program, the variables that exist throughout program execution. 
+	• The stack segment: simple data structure with a LIFO (last-in first-out) access policy.
+	• The heap segment is a pool of memory used for dynamically allocated memory, such as with malloc() in C or new in C++ and Java.
+
+
 what is class?
+A.
+class is a blueprint/template from which objects are created
+object: Java is an object oriented programming language, meaning that the way we write code is through objects. But what are objects:
+An object is anything that is known to have a state and behavior. So whatever you see to your left, right is an object. The laptop or
+mobile phone you’re using right now is considered an object. As long as it has a state and behavior, it is considered an object.
+
 What is object?
+A.
+object: Java is an object oriented programming language, meaning that the way we write code is through objects. But what are objects:
+An object is anything that is known to have a state and behavior. So whatever you see to your left, right is an object. The laptop or
+mobile phone you’re using right now is considered an object. As long as it has a state and behavior, it is considered an object.
+
+
 What is the entry point of an application?
+A.
+it is the main method.
+
 Why main is static?
+A.
+because keyword static allows main to be called without creating an object of the class.
+also Java program will successfully compile, but it won't execute.
+
+
 Which class is the superclass of all classes?
+A.
+object. all classes inherited from object.
+
 What is difference between path and classpath variables?
+A.
+path: is a path environment variable required to run the executable application
+ from any directory without having to type the full path of the command.
+classpath: a system environment variable used by the Java compiler to find the path, of classes
+
 What is the difference between an Interface and Abstract class?
+A.
+ in interface you can have only abstract methods its 100% abstraction, no method body but still can do getters and setters.
+ interface class cannot inherit  from other class, but can inherit from another interface
+ class( this is not common), and it is usually the super-super class but eventually you can extend from it.
+only final and static variables are defined/ no necessary to write final in interface, defined by default.
+no need to write abstract because in interface they are abstract by default. no body method but still can do get and set.
+
+to create abstraction class use keyword abstract. It is partially abstract: it can have non abstract methods
+but at list one abstract method. abstract classes should be extended using key word extends. an abstract class
+can extend another class and implement multiple interfaces.
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A.
+you just methods names tan you can provide a method body.
+
 what is Access Specifier?
+A.
+ it is used to set the access level for classes, attributes, methods and constructors.
+ for class you can use public or default. for attributes, methods and constructors you can use public, private, protected, default.
 What is OOP ? Define each feature of java OOP.
+A. object oriented programing refers to a language that uses objects.
+	1) Inheritance :
+	With inheritance, we can reuse the fields and methods of the existing class. Hence, inheritance
+	 facilitates Reusability and is an important concept of OOPs. For the data that you don’t want to inherit from parent
+	 class simply use private. Key word to inherit is "extends"
+
+	2) Polymorphism:
+	Polymorphism is a OOPs concept where one name can have many forms. (will example add)
+	For example, you have a smartphone for communication. The communication mode you choose could be anything. It can be
+	a call, a text message, a picture message, mail, etc. So, the goal is common that is communication, but their approach
+	is different. This is called Polymorphism. two types overriding and overloading.
+
+	3)abstraction: implementation hiding, it can have non abstract methods but at list one abstract method.
+
+	4)interface, in interface you can have only abstract methods its 100% abstraction, no method body.
+      	 interface class cannot inherit  from other class, but can inherit from another interface class( this is not common),
+      	  and it usually the super-super class but eventually you can extend from it
+
+
 What is Java Package and which package is imported by default?
+A.
+package is a namespace that organizes a set of related classes and interfaces
+bu default: java.lang
+
 What is API? Name list of API that you have used so far.
+A.
+Java application programming interface (API) is a list of all classes that are part of the
+Java development kit (JDK). It includes all Java packages, classes, and interfaces,
+along with their methods, fields, and constructors.
+String, class, all the data structure: array...
+
 Does java support multiple inheritance, explain why or why not?
+A.
+
+
 What is method overloading and when it happens?
+A.
+Overloading: having 02 or more methods with the same name and same class with different parameters.
+
 Explain exceptions in java and how to handle it.
+A.
+Errors happen all the time  It might be an external system that is not responding, or it’s a simple programming error.
+In all these situations, the errors occur at runtime and the application needs to handle them. Otherwise, it crashes
+and can’t process further requests. Java can handle the exceptional event. using try catch block:
+The try statement allows you to define a block of code to be tested for errors while it is being executed.
+The catch statement allows you to define a block of code to be executed, if an error occurs in the try block.
+The try and catch keywords come in pairs:
+
 What is static keyword in java? How it has been used in variables and methods ?
+A.
+static means unique if uou declare a variable or method static then it is is unique, i compare this to primary key in sql
+
 What is final and how it has been used variables and methods?
+A.
+The final keyword is a non-access modifier used for classes, attributes and methods, which makes them non-changeable
+ (impossible to inherit or override).
+
 What is final, finally and finalize?
+A.
+The final keyword is useful when you want a variable to always store the same value, like PI (3.14159...).
+  The final keyword is called a "modifier". You always have to give the value of variable when using final.
+  The finally keyword is used to execute code (used with exceptions - try..catch statements) no matter if there
+   is an exception or not.
+
 What is a constructor ?
+A.
+Constructor is a code that initializes the newly created object.
+
 Can we have multiple constructors in a class?
+A.
+YES
+
 If we don't have a constructor declared, what is called during the object creation?
+A.
+default constructor
+
 What is "this" keyword in java ?
+A.
+
 What is "super" keyword in java? How many possible way can you use?
+A.
+
 What is JVM stand for ?
+A.
+Java Virtual Machine.
+
 Is JVM platform independent?
+A.
+while java is platform-independent language, the JVM is platform-dependent
+
 What version of java are you using?
+A.
+ version 8
+
 What is JAR stand for ?
+A.
+JAR stands for "Java ARchive". A JAR file is basically a zip-file which contains a couple of class files and a text
+file containing some meta information.
+
 What is the difference between JDK and JVM?
+A.
+JVM (Java Virtual Machine) is an abstract machine. It is a specification that provides runtime environment in which
+ java bytecode can be executed.
+JDK is an acronym for Java Development Kit.It physically exists.It contains JRE + development tools.
+
 What is the difference between JVM and JRE?
+A.
+JRE is the implementation of JVM, it provides a platform to execute java programs. JRE consists of JVM and java binaries
+and other classes to execute any program successfully. JRE doesn’t contain any development tools like java compiler,
+ debugger...
+
 What is compile time and run time?
+A.
 What is heap?
+A.
 How java manage it's memory?
 What is the difference between String, StringBuffer and StringBuilder?
 What is Singleton class?
