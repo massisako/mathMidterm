@@ -351,13 +351,40 @@ A.
 Reflection in Java is the ability to examine and/or modify the properties or behavior of an object at run-time.
 
 what is multithreading in java?
+A.
+Multithreading is a Java feature that allows concurrent execution
+  of two or more parts of a program for maximum utilization of CPU.
+
 What is the use of synchronization in Java?
+A.
+Synchronization is the process of allowing threads to execute one after another.
 What is Framework?
+A.
+Frameworks are large bodies (usually many classes) of pre_written code to which
+  you add your own code to solve a problem in a specific domain.
 What are the testing Framework available in java?
+A.
+JUNIT, REST Assured, Selenium, TestNG, Mockito, Spock Framework, Cucumber, SpringTest, DBUnit, Robot Framework.
 Difference between jUnit and testNG?
+A.
+TestNG is quite similar to JUnit, but with added functionalities and features such as parallel test execution,
+  parameterization, and more. It is inspired by JUnit and NUnit.
+
 What are the dependencies for this project?
+A.
+Sometimes, you may need to invoke methods in a test case in a particular order.
 what is dependency injection in java?
+A.
+In software engineering, dependency injection is a technique whereby one object
+  (or static method) supplies the dependencies of another object.
+
 What is static binding and dynamic binding?
+A.
+static binding in Java occurs during compile time while dynamic binding occurs during runtime.
+  private , final and static methods and variables use static binding and are bonded by compiler
+  while virtual methods are bonded during runtime based upon runtime object.
+
+
 
 
 
