@@ -14,7 +14,7 @@ public class UseArrayList {
 		 */
 
 		ArrayList<String> arraylist= new ArrayList<>();
-		arraylist.add("Akli");
+		arraylist.add("Massi");
 		arraylist.add("Ayan");
 		arraylist.add("Elyan");
 		arraylist.add("Jeff");

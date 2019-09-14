@@ -1,7 +1,7 @@
 package math.problems;
 import static java.lang.Math.abs;
 public class FindLowestDifference {
-    public static void main(String[] args) {
+    public static void FindLowestDifference() {
         /*
          Implement in java.
          Read this below two array. Find the lowest difference between the two array cell.

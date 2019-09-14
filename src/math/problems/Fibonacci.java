@@ -1,10 +1,13 @@
 package math.problems;
 
+import org.testng.annotations.Test;
+
 public class Fibonacci {
-    public static int findFibonacci(int i, int n) {
+    public static int findFibonacci1(int i, int n) {
         return 0;
     }
-    public static void main(String[] args) {
+
+    public static void findFibonacci() {
          /*
           Write 40 Fibonacci numbers with java.
           0,1,1,2,3,5,8,13

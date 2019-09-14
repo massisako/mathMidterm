@@ -7,7 +7,7 @@ import java.util.List;
 
 public class LowestNumber {
 
-		public void main(String[] args) {
+		public static void lowestNumber() {
 			/*
 			 * Write java solution to find the lowest number from this array.
 			 * Use one of the databases from mysql or mongodb to store and to retrieve.

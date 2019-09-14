@@ -263,9 +263,11 @@ Unfortunately there is no keyword for this, so the  way to do it is to fellow th
 1st step you have to create a static object (static instance)
 class Abc{
  static Abc obj = new Abc();
-2nd step don’t allow user to create instance with default constructor: so declare constructor as private therefore it cant be called.
+2nd step don’t allow user to create instance with default constructor: so declare constructor as private therefore it
+cant be called.
 private Abc()
-3rd step  create a mothed that should be static which will return the object ( return obj; ) of instance of Abc and will name this as ' getInstance'
+3rd step  create a mothed that should be static which will return the object ( return obj; ) of instance of Abc and
+will name this as ' getInstance'
 You can have any name though not just instance.
 public static Abc getInstance()
 return obj;
@@ -273,23 +275,48 @@ return obj;
 By following this 3 steps you created that means you allowing only one instance of you class
 Know how to create this only instance; its class_name.method_name
 Abc obj1 = Abc.getinstance   // no new key word
-Abc obj2 = Abc.getinstance.   // even if it is allowing you to create more instances but every time it will be the same instance (so no point ding so)
+Abc obj2 = Abc.getinstance.   // even if it is allowing you to create more instances but every time it will be the same
+instance (so no point ding so)
 
 
 
 What is Serialization and Deserialization?
 A.
+The concept of Serialization and deserialization is used whenever data pertaining to objects have to be sent from one
+application to another. Serialization is used to export application data into a file. The destination application then
+uses deserialization to extract the data from the application for further use.
+example; when you talk in phone the words or data are transmited through electrical or wireless signals. when they get
+ deserialization the other user get to hear our words.
 
 when to use transient variable in java?
 A.
+transient is a variables modifier used in serialization. At the time of serialization,
+if we don’t want to save value of a particular variable in a file, then we use transient keyword.
 
 Difference between while and do..while loop?
+A.
+_While loop executes the code block only if the condition is True.
+_Do While loop, condition is tested at the end of the loop so Do While executes
+the statements in the code block at least once even if the condition Fails.
+
 What is Enum?
+A.
+
 What is Iterator?
+A.
+
 Which one will take more memory, an int or Integer?
+A.
+
 Why is String Immutable in Java?
+A.
+
 What is constructor chaining in Java?
+A.
+
 The difference between Serial and Parallel Garbage Collector?
+A.
+
 What is JIT stands for?
 Explain Java Heap space and Garbage collection?
 Can you guarantee the garbage collection process?

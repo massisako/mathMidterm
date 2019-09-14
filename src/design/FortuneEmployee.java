@@ -17,7 +17,7 @@ public class FortuneEmployee {
 
 		EmployeeInfo employeeInfoConstructor1 = new EmployeeInfo();
 		EmployeeInfo employeeInfoConstructor2 = new EmployeeInfo(1);
-		EmployeeInfo employeeInfoConstructor3 = new EmployeeInfo("Akli",2);
+		EmployeeInfo employeeInfoConstructor3 = new EmployeeInfo("Massi",2);
 
 		EmployeeInfo employeeInfo = new EmployeeInfo();
 
